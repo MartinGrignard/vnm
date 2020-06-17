@@ -1,0 +1,25 @@
+<user-mapping>
+
+    <authorize
+            username=""
+            password="">
+
+        <!-- First authorized connection -->
+        <connection name="Ubuntu-Server">
+            <protocol>ssh</protocol>
+            <param name="hostname">192.168.43.154</param>
+            <param name="port">22</param>
+            <param name="username">vnm</param>
+        </connection>
+
+        <!-- Second authorized connection -->
+        <connection name="Windows 7">
+            <protocol>rdp</protocol>
+            <param name="hostname">192.168.43.218</param>
+            <param name="port">3389</param>
+            <param name="username">vnm</param>
+        </connection>
+
+    </authorize>
+
+</user-mapping>
